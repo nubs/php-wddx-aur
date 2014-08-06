@@ -17,7 +17,7 @@ md5sums=('63b56e64e7c25b1c6dcdf778333dfa24'
          'SKIP')
 
 build() {
-  cd "${srcdir}/php-${pkgver}/ext/${_extname}"
+  cd "php-${pkgver}/ext/${_extname}"
 
   phpize || return 1
   ./configure --prefix=/usr
