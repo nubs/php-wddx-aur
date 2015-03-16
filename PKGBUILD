@@ -3,7 +3,7 @@
 _extname=wddx
 pkgname=("php-${_extname}")
 pkgver=5.5.15
-pkgrel=1
+pkgrel=2
 pkgdesc="PHP extension for wddx"
 arch=('i686' 'x86_64')
 url='http://www.php.net/wddx'
